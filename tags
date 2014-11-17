@@ -1,0 +1,539 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+A	nist/src/cephes.c	/^static unsigned short A[] = {$/;"	v	file:
+AES_DECRYPT	cetd/include/aes.h	55;"	d
+AES_ENCRYPT	cetd/include/aes.h	54;"	d
+AES_FROUND	cetd/src/aes.c	619;"	d	file:
+AES_RROUND	cetd/src/aes.c	642;"	d	file:
+ALPHA	nist/include/defs.h	24;"	d
+ARR_ELEM_LEN	cetd/src/shuffle.c	10;"	d	file:
+ASCII2BIN	nist/include/genutils.h	17;"	d
+ApproximateEntropy	nist/src/approximateEntropy.c	/^ApproximateEntropy(int m, int n)$/;"	f
+B	nist/src/cephes.c	/^static unsigned short B[] = {$/;"	v	file:
+BIN	cetd/include/config.h	27;"	d
+BLK_LENGTH	cetd/include/config.h	21;"	d
+BLK_NUMBER	cetd/include/config.h	20;"	d
+BSTRTD	nist/include/config.h	/^typedef unsigned char *BSTRTD;$/;"	t
+BYTE	nist/include/config.h	/^typedef unsigned char BYTE;$/;"	t
+BitSequence	nist/include/defs.h	/^typedef unsigned char	BitSequence;$/;"	t
+BlockFrequency	nist/src/blockFrequency.c	/^BlockFrequency(int M, int n)$/;"	f
+C	nist/src/cephes.c	/^static unsigned short C[] = {$/;"	v	file:
+CC	cetd/makefile	/^CC = \/usr\/bin\/gcc$/;"	m
+CC	makefile	/^CC = \/usr\/bin\/gcc$/;"	m
+CC	nist/makefile	/^CC = \/usr\/bin\/gcc$/;"	m
+CETDDIR	makefile	/^CETDDIR = $(ROOTDIR)\/cetd$/;"	m
+CETDOBJDIR	makefile	/^CETDOBJDIR = $(CETDDIR)\/obj$/;"	m
+CETDSRCDIR	makefile	/^CETDSRCDIR = $(CETDDIR)\/src$/;"	m
+CETD_128_CETD_h	cetd/include/CETD.h	10;"	d
+CETD_128_permutation_h	cetd/include/permutation.h	10;"	d
+CETD_internal_cipher_h	cetd/include/cipher.h	10;"	d
+CETD_internal_input_h	cetd/include/input.h	10;"	d
+CETD_tag_generation	cetd/src/CETD.c	/^void CETD_tag_generation(const uchar **data,$/;"	f
+CS1	nist/include/generators.h	18;"	d
+CS30	nist/include/generators.h	20;"	d
+CS5	nist/include/generators.h	19;"	d
+CSTRTD	nist/include/config.h	/^typedef char *CSTRTD;$/;"	t
+CSV_file	cetd/include/config.h	23;"	d
+CTR_MAX	cetd/src/run.c	41;"	d	file:
+CTR_MAX	run.c	36;"	d	file:
+CumulativeSums	nist/src/cusum.c	/^CumulativeSums(int n)$/;"	f
+DBLWORD	nist/include/config.h	/^typedef ULONG DBLWORD;  \/* 32-bit word *\/$/;"	t
+DEBUG	cetd/src/gf_mult.c	8;"	d	file:
+DEC	cetd/include/config.h	26;"	d
+DIGIT	nist/include/config.h	/^typedef USHORT DIGIT;	\/* 16-bit word *\/$/;"	t
+DiscreteFourierTransform	nist/src/discreteFourierTransform.c	/^DiscreteFourierTransform(int n)$/;"	f
+Div	nist/src/genutils.c	/^void Div(BYTE *x, int lenx, BYTE *n, int lenn)$/;"	f
+DivMod	nist/src/genutils.c	/^int DivMod(BYTE *x, int lenx, BYTE *n, int lenn, BYTE *quot, BYTE *rem)$/;"	f
+ELEM_LEN	cetd/include/config.h	18;"	d
+ELEM_TYPE	cetd/include/config.h	17;"	d
+EXPWD	nist/include/genutils.h	20;"	d
+FREE	nist/include/genutils.h	16;"	d
+FSb	cetd/src/aes.c	/^static const unsigned char FSb[256] =$/;"	v	file:
+FSb	cetd/src/aes.c	/^static unsigned char FSb[256];$/;"	v	file:
+FT	cetd/src/aes.c	114;"	d	file:
+FT	cetd/src/aes.c	197;"	d	file:
+FT0	cetd/src/aes.c	/^static const uint32_t FT0[256] = { FT };$/;"	v	file:
+FT0	cetd/src/aes.c	/^static uint32_t FT0[256]; $/;"	v	file:
+FT1	cetd/src/aes.c	/^static const uint32_t FT1[256] = { FT };$/;"	v	file:
+FT1	cetd/src/aes.c	/^static uint32_t FT1[256]; $/;"	v	file:
+FT2	cetd/src/aes.c	/^static const uint32_t FT2[256] = { FT };$/;"	v	file:
+FT2	cetd/src/aes.c	/^static uint32_t FT2[256]; $/;"	v	file:
+FT3	cetd/src/aes.c	/^static const uint32_t FT3[256] = { FT };$/;"	v	file:
+FT3	cetd/src/aes.c	/^static uint32_t FT3[256]; $/;"	v	file:
+Frequency	nist/src/frequency.c	/^Frequency(int n)$/;"	f
+GCCFLAGS	cetd/makefile	/^GCCFLAGS = -c -Wall -g --std=c99$/;"	m
+GCCFLAGS	makefile	/^GCCFLAGS = -c -Wall -g --std=c99$/;"	m
+GCCFLAGS	nist/makefile	/^GCCFLAGS = -c -Wall$/;"	m
+GCM_config_h	cetd/include/config.h	10;"	d
+GET_UINT32_LE	cetd/src/aes.c	47;"	d	file:
+K0	nist/include/generators.h	24;"	d
+K1	nist/include/generators.h	25;"	d
+K2	nist/include/generators.h	26;"	d
+K3	nist/include/generators.h	27;"	d
+LC_BOUND	cetd/src/input.c	19;"	d	file:
+LL_arr_gen_func	cetd/src/LL_arr_gen.c	/^void LL_arr_gen_func(Node **node_arr, int blk_num)$/;"	f
+LinearComplexity	nist/src/linearComplexity.c	/^LinearComplexity(int M, int n)$/;"	f
+LongestRunOfOnes	nist/src/longestRunOfOnes.c	/^LongestRunOfOnes(int n)$/;"	f
+MACHEP	nist/src/cephes.c	/^double MACHEP = 1.11022302462515654042E-16;		\/\/ 2**-53$/;"	v
+MATRIX_BACKWARD_ELIMINATION	nist/src/matrix.c	11;"	d	file:
+MATRIX_FORWARD_ELIMINATION	nist/src/matrix.c	10;"	d	file:
+MAX	nist/include/defs.h	11;"	d
+MAXFILESPERMITTEDFORPARTITION	nist/include/defs.h	28;"	d
+MAXLGM	nist/src/cephes.c	138;"	d	file:
+MAXLOG	nist/src/cephes.c	/^double MAXLOG = 7.09782712893383996732224E2;	\/\/ log(MAXNUM)$/;"	v
+MAXNUM	nist/src/cephes.c	/^double MAXNUM = 1.7976931348623158E308;			\/\/ 2**1024*(1-MACHEP)$/;"	v
+MAXNUMOFTEMPLATES	nist/include/defs.h	25;"	d
+MAXPLEN	nist/src/genutils.c	12;"	d	file:
+MIN	nist/include/defs.h	12;"	d
+MP	nist/include/genutils.h	/^	} MP;$/;"	t	typeref:struct:_MP_struct
+MUL	cetd/src/aes.c	366;"	d	file:
+Mod	nist/src/genutils.c	/^void Mod(BYTE *x, int lenx, BYTE *n, int lenn)$/;"	f
+ModExp	nist/src/genutils.c	/^void ModExp(BYTE *A, BYTE *B, int LB, BYTE *C, int LC, BYTE *M, int LM)$/;"	f
+ModMult	nist/src/genutils.c	/^void ModMult(BYTE *A, BYTE *B, int LB, BYTE *C, int LC, BYTE *M, int LM)$/;"	f
+ModSqr	nist/src/genutils.c	/^void ModSqr(BYTE *A, BYTE *B, int LB, BYTE *M, int LM)$/;"	f
+Mult	nist/src/genutils.c	/^int Mult(BYTE *A, BYTE *B, int LB, BYTE *C, int LC)$/;"	f
+NISTDIR	makefile	/^NISTDIR = $(ROOTDIR)\/nist$/;"	m
+NISTOBJDIR	makefile	/^NISTOBJDIR = $(NISTDIR)\/obj$/;"	m
+NISTSRCDIR	makefile	/^NISTSRCDIR = $(NISTDIR)\/src$/;"	m
+NUMOFGENERATORS	nist/include/defs.h	27;"	d
+NUMOFTESTS	nist/include/defs.h	26;"	d
+Node	cetd/include/LL_arr_gen.h	/^}Node;$/;"	t	typeref:struct:node
+NonOverlappingTemplateMatchings	nist/src/nonOverlappingTemplateMatchings.c	/^NonOverlappingTemplateMatchings(int m, int n)$/;"	f
+OBJ	cetd/makefile	/^OBJ = $(OBJDIR)\/CETD.o $(OBJDIR)\/tag.o $(OBJDIR)\/shuffle.o $(OBJDIR)\/permutation.o  \\$/;"	m
+OBJ	makefile	/^OBJ = $(OBJDIR)\/run.o \\$/;"	m
+OBJ	nist/makefile	/^OBJ = $(OBJDIR)\/frequency.o $(OBJDIR)\/blockFrequency.o \\$/;"	m
+OBJDIR	cetd/makefile	/^OBJDIR = $(ROOTDIR)\/obj$/;"	m
+OBJDIR	makefile	/^OBJDIR = $(ROOTDIR)\/obj$/;"	m
+OBJDIR	nist/makefile	/^OBJDIR = $(ROOTDIR)\/obj$/;"	m
+OPTV1	cetd/include/gf_mult.h	2;"	d
+OPTV2	cetd/include/gf_mult.h	3;"	d
+OPTV3	cetd/include/gf_mult.h	4;"	d
+OPTV4	cetd/include/gf_mult.h	5;"	d
+OPTV5	cetd/include/gf_mult.h	6;"	d
+OverlappingTemplateMatchings	nist/src/overlappingTemplateMatchings.c	/^OverlappingTemplateMatchings(int m, int n)$/;"	f
+PADLOCK_ACE	cetd/include/padlock.h	49;"	d
+PADLOCK_ALIGN16	cetd/include/padlock.h	53;"	d
+PADLOCK_PHE	cetd/include/padlock.h	50;"	d
+PADLOCK_PMM	cetd/include/padlock.h	51;"	d
+PADLOCK_RNG	cetd/include/padlock.h	48;"	d
+PERIODIC	cetd/src/cipher.c	15;"	d	file:
+PERIODIC	cetd/src/input.c	17;"	d	file:
+PI	nist/src/cephes.c	/^double PI     = 3.14159265358979323846;			\/\/ pi, duh!$/;"	v
+POLARSSL_AES_C	cetd/include/config.h	55;"	d
+POLARSSL_AES_H	cetd/include/aes.h	28;"	d
+POLARSSL_CIPHER_MODE_CFB	cetd/include/aes.h	36;"	d
+POLARSSL_CIPHER_MODE_CTR	cetd/include/aes.h	43;"	d
+POLARSSL_ERR_AES_INVALID_INPUT_LENGTH	cetd/include/aes.h	58;"	d
+POLARSSL_ERR_AES_INVALID_KEY_LENGTH	cetd/include/aes.h	57;"	d
+POLARSSL_ERR_PADLOCK_DATA_MISALIGNED	cetd/include/padlock.h	32;"	d
+POLARSSL_GCM_C	cetd/include/config.h	81;"	d
+POLARSSL_HAVE_X86	cetd/include/padlock.h	37;"	d
+POLARSSL_PADLOCK_C	cetd/include/config.h	66;"	d
+POLARSSL_PADLOCK_H	cetd/include/padlock.h	28;"	d
+POLARSSL_SELF_TEST	cetd/include/config.h	87;"	d
+PUT_UINT32_LE	cetd/src/aes.c	57;"	d	file:
+Pr	nist/src/overlappingTemplateMatchings.c	/^Pr(int u, double eta)$/;"	f
+RCON	cetd/src/aes.c	/^static const uint32_t RCON[10] =$/;"	v	file:
+RCON	cetd/src/aes.c	/^static uint32_t RCON[10];$/;"	v	file:
+ROOTDIR	cetd/makefile	/^ROOTDIR = .$/;"	m
+ROOTDIR	makefile	/^ROOTDIR = .$/;"	m
+ROOTDIR	nist/makefile	/^ROOTDIR = .$/;"	m
+ROTL8	cetd/src/aes.c	364;"	d	file:
+RSb	cetd/src/aes.c	/^static const unsigned char RSb[256] =$/;"	v	file:
+RSb	cetd/src/aes.c	/^static unsigned char RSb[256];$/;"	v	file:
+RT	cetd/src/aes.c	241;"	d	file:
+RT	cetd/src/aes.c	324;"	d	file:
+RT0	cetd/src/aes.c	/^static const uint32_t RT0[256] = { RT };$/;"	v	file:
+RT0	cetd/src/aes.c	/^static uint32_t RT0[256];$/;"	v	file:
+RT1	cetd/src/aes.c	/^static const uint32_t RT1[256] = { RT };$/;"	v	file:
+RT1	cetd/src/aes.c	/^static uint32_t RT1[256];$/;"	v	file:
+RT2	cetd/src/aes.c	/^static const uint32_t RT2[256] = { RT };$/;"	v	file:
+RT2	cetd/src/aes.c	/^static uint32_t RT2[256];$/;"	v	file:
+RT3	cetd/src/aes.c	/^static const uint32_t RT3[256] = { RT };$/;"	v	file:
+RT3	cetd/src/aes.c	/^static uint32_t RT3[256];$/;"	v	file:
+RandomExcursions	nist/src/randomExcursions.c	/^RandomExcursions(int n)$/;"	f
+RandomExcursionsVariant	nist/src/randomExcursionsVariant.c	/^RandomExcursionsVariant(int n)$/;"	f
+Rank	nist/src/rank.c	/^Rank(int n)$/;"	f
+Reverse	cetd/src/array_shift.c	/^void Reverse(char *arr, int b, int e)$/;"	f
+RightShift	cetd/src/array_shift.c	/^void RightShift(char *arr, int N, int k)$/;"	f
+Round2	nist/include/generators.h	57;"	d
+Round3	nist/include/generators.h	68;"	d
+Round4	nist/include/generators.h	79;"	d
+Runs	nist/src/runs.c	/^Runs(int n)$/;"	f
+SEG_BITS	cetd/include/shuffle.h	5;"	d
+SHA1	nist/src/generators.c	/^SHA1()$/;"	f
+SHIFT_P	cetd/include/permutation.h	12;"	d
+SHIFT_P_P	cetd/include/permutation.h	13;"	d
+SHUFFLE_BLK_NUM	cetd/src/shuffle.c	9;"	d	file:
+SHUFFLE_P	cetd/include/permutation.h	14;"	d
+SHUFFLE_P	cetd/include/shuffle.h	4;"	d
+SRCDIR	cetd/makefile	/^SRCDIR = $(ROOTDIR)\/src$/;"	m
+SRCDIR	makefile	/^SRCDIR = $(ROOTDIR)\/src$/;"	m
+SRCDIR	nist/makefile	/^SRCDIR = $(ROOTDIR)\/src$/;"	m
+STIN	nist/src/dfft.c	58;"	d	file:
+Serial	nist/src/serial.c	/^Serial(int m, int n)$/;"	f
+Square	nist/src/genutils.c	/^void Square(BYTE *A, BYTE *B, int L)$/;"	f
+TAG_LENGTH	cetd/include/config.h	29;"	d
+TEST_APEN	nist/include/defs.h	39;"	d
+TEST_BLOCK_FREQUENCY	nist/include/defs.h	30;"	d
+TEST_CUSUM	nist/include/defs.h	31;"	d
+TEST_FFT	nist/include/defs.h	35;"	d
+TEST_FREQUENCY	nist/include/defs.h	29;"	d
+TEST_LINEARCOMPLEXITY	nist/include/defs.h	43;"	d
+TEST_LONGEST_RUN	nist/include/defs.h	33;"	d
+TEST_NONPERIODIC	nist/include/defs.h	36;"	d
+TEST_OVERLAPPING	nist/include/defs.h	37;"	d
+TEST_RANK	nist/include/defs.h	34;"	d
+TEST_RND_EXCURSION	nist/include/defs.h	40;"	d
+TEST_RND_EXCURSION_VAR	nist/include/defs.h	41;"	d
+TEST_RUNS	nist/include/defs.h	32;"	d
+TEST_SERIAL	nist/include/defs.h	42;"	d
+TEST_UNIVERSAL	nist/include/defs.h	38;"	d
+TESTi	cetd/src/gf_mult.c	7;"	d	file:
+TP	nist/include/defs.h	/^} TP;$/;"	t	typeref:struct:_testParameters
+TXT_file	cetd/include/config.h	24;"	d
+UINT	nist/include/config.h	/^typedef unsigned int UINT;$/;"	t
+ULONG	nist/include/config.h	/^typedef unsigned long ULONG;$/;"	t
+USHORT	nist/include/config.h	/^typedef unsigned short USHORT;$/;"	t
+Universal	nist/src/universal.c	/^Universal(int n)$/;"	f
+V	cetd/src/aes.c	181;"	d	file:
+V	cetd/src/aes.c	183;"	d	file:
+V	cetd/src/aes.c	185;"	d	file:
+V	cetd/src/aes.c	187;"	d	file:
+V	cetd/src/aes.c	189;"	d	file:
+V	cetd/src/aes.c	191;"	d	file:
+V	cetd/src/aes.c	193;"	d	file:
+V	cetd/src/aes.c	195;"	d	file:
+V	cetd/src/aes.c	308;"	d	file:
+V	cetd/src/aes.c	310;"	d	file:
+V	cetd/src/aes.c	312;"	d	file:
+V	cetd/src/aes.c	314;"	d	file:
+V	cetd/src/aes.c	316;"	d	file:
+V	cetd/src/aes.c	318;"	d	file:
+V	cetd/src/aes.c	320;"	d	file:
+V	cetd/src/aes.c	322;"	d	file:
+VPATH	cetd/makefile	/^VPATH = src:obj:include $/;"	m
+VPATH	makefile	/^VPATH = src:obj:include \\$/;"	m
+VPATH	nist/makefile	/^VPATH  = src:obj:include$/;"	m
+WORD64	nist/include/config.h	/^typedef ULONG WORD64[2];  \/* 64-bit word *\/$/;"	t
+XTIME	cetd/src/aes.c	365;"	d	file:
+X_generation_show_h	cetd/include/show.h	10;"	d
+Y_NUMBER	cetd/include/CETD.h	17;"	d
+Y_SINGLE	cetd/src/CETD.c	18;"	d	file:
+_CEPHES_H_	nist/include/cephes.h	3;"	d
+_CONFIG_H_	nist/include/config.h	7;"	d
+_GENUTILS_H_	nist/include/genutils.h	3;"	d
+_MP_struct	nist/include/genutils.h	/^typedef struct _MP_struct {$/;"	s
+__ogg_fdcosqb	nist/src/dfft.c	/^void __ogg_fdcosqb(int n, double *x, double *wsave, int *ifac)$/;"	f
+__ogg_fdcosqf	nist/src/dfft.c	/^void __ogg_fdcosqf(int n, double *x, double *wsave, int *ifac)$/;"	f
+__ogg_fdcosqi	nist/src/dfft.c	/^void __ogg_fdcosqi(int n, double *wsave, int *ifac)$/;"	f
+__ogg_fdrfftb	nist/src/dfft.c	/^void __ogg_fdrfftb(int n, double *r, double *wsave, int *ifac)$/;"	f
+__ogg_fdrfftf	nist/src/dfft.c	/^void __ogg_fdrfftf(int n, double *r, double *wsave, int *ifac)$/;"	f
+__ogg_fdrffti	nist/src/dfft.c	/^void __ogg_fdrffti(int n, double *wsave, int *ifac)$/;"	f
+_testParameters	nist/include/defs.h	/^typedef struct _testParameters {$/;"	s
+add	nist/src/genutils.c	/^BYTE add(BYTE *A, int LA, BYTE *B, int LB)$/;"	f
+addr_arr_generation	cetd/src/CETD.c	/^void addr_arr_generation(int addr, $/;"	f
+aes_context	cetd/include/aes.h	/^aes_context;$/;"	t	typeref:struct:__anon1
+aes_context	cetd/include/aes.h	/^aes_context;$/;"	t	typeref:struct:__anon2
+aes_crypt_cbc	cetd/src/aes.c	/^int aes_crypt_cbc( aes_context *ctx,$/;"	f
+aes_crypt_cfb128	cetd/src/aes.c	/^int aes_crypt_cfb128( aes_context *ctx,$/;"	f
+aes_crypt_ctr	cetd/src/aes.c	/^int aes_crypt_ctr( aes_context *ctx,$/;"	f
+aes_crypt_ecb	cetd/src/aes.c	/^int aes_crypt_ecb( aes_context *ctx,$/;"	f
+aes_gen_tables	cetd/src/aes.c	/^static void aes_gen_tables( void )$/;"	f	file:
+aes_init_done	cetd/src/aes.c	/^static int aes_init_done = 0;$/;"	v	file:
+aes_padlock_ace	cetd/src/aes.c	/^static int aes_padlock_ace = -1;$/;"	v	file:
+aes_self_test	cetd/src/aes.c	/^int aes_self_test( int verbose )$/;"	f
+aes_setkey_dec	cetd/src/aes.c	/^int aes_setkey_dec( aes_context *ctx, const unsigned char *key, unsigned int keysize )$/;"	f
+aes_setkey_enc	cetd/src/aes.c	/^int aes_setkey_enc( aes_context *ctx, const unsigned char *key, unsigned int keysize )$/;"	f
+aes_test_cbc_dec	cetd/src/aes.c	/^static const unsigned char aes_test_cbc_dec[3][16] =$/;"	v	file:
+aes_test_cbc_enc	cetd/src/aes.c	/^static const unsigned char aes_test_cbc_enc[3][16] =$/;"	v	file:
+aes_test_cfb128_ct	cetd/src/aes.c	/^static const unsigned char aes_test_cfb128_ct[3][64] =$/;"	v	file:
+aes_test_cfb128_iv	cetd/src/aes.c	/^static const unsigned char aes_test_cfb128_iv[16] =$/;"	v	file:
+aes_test_cfb128_key	cetd/src/aes.c	/^static const unsigned char aes_test_cfb128_key[3][32] =$/;"	v	file:
+aes_test_cfb128_pt	cetd/src/aes.c	/^static const unsigned char aes_test_cfb128_pt[64] =$/;"	v	file:
+aes_test_ctr_ct	cetd/src/aes.c	/^static const unsigned char aes_test_ctr_ct[3][48] =$/;"	v	file:
+aes_test_ctr_key	cetd/src/aes.c	/^static const unsigned char aes_test_ctr_key[3][16] =$/;"	v	file:
+aes_test_ctr_len	cetd/src/aes.c	/^static const int aes_test_ctr_len[3] =$/;"	v	file:
+aes_test_ctr_nonce_counter	cetd/src/aes.c	/^static const unsigned char aes_test_ctr_nonce_counter[3][16] =$/;"	v	file:
+aes_test_ctr_pt	cetd/src/aes.c	/^static const unsigned char aes_test_ctr_pt[3][48] =$/;"	v	file:
+aes_test_ecb_dec	cetd/src/aes.c	/^static const unsigned char aes_test_ecb_dec[3][16] =$/;"	v	file:
+aes_test_ecb_enc	cetd/src/aes.c	/^static const unsigned char aes_test_ecb_enc[3][16] =$/;"	v	file:
+ahtopb	nist/src/genutils.c	/^ahtopb (char *ascii_hex, BYTE *p_binary, int bin_len)$/;"	f
+all_0	cetd/src/input.c	/^void all_0(uchar **input, FILE *data_i, bool file_type, int number, int arr_length)$/;"	f
+all_1	cetd/src/input.c	/^void all_1(uchar **input, FILE *data_i, bool file_type, int number, int arr_length)$/;"	f
+approximateEntropyBlockLength	nist/include/defs.h	/^	int		approximateEntropyBlockLength;$/;"	m	struct:_testParameters
+array_shift_bit_array_shift_h	cetd/include/array_shift.h	10;"	d
+balance_counter	cetd/src/input.c	/^void balance_counter(uchar **input, FILE *data_i, int test_n,bool file_type,int total_blk)$/;"	f
+bbs	nist/src/generators.c	/^bbs()$/;"	f
+big	nist/src/cephes.c	/^static double big = 4.503599627370496e15;$/;"	v	file:
+biginv	nist/src/cephes.c	/^static double biginv =  2.22044604925031308085e-16;$/;"	v	file:
+bin2dec	cetd/src/combination.c	/^int bin2dec(char *bin, int bin_len)$/;"	f
+bitlen	nist/include/genutils.h	/^	int		bitlen;	\/*  in bits, duh  *\/$/;"	m	struct:_MP_struct
+bits_freq_input	cetd/src/run.c	/^void bits_freq_input(int block_number, $/;"	f
+bits_freq_input	run.c	/^void bits_freq_input(int block_number, $/;"	f
+blockFrequencyBlockLength	nist/include/defs.h	/^	int		blockFrequencyBlockLength;$/;"	m	struct:_testParameters
+block_flipping	cetd/src/CETD.c	/^int block_flipping(uchar **input_data, $/;"	f
+bshl	nist/src/genutils.c	/^BYTE bshl(BYTE *x, int l)$/;"	f
+bshr	nist/src/genutils.c	/^void bshr(BYTE *x, int l)	$/;"	f
+buf	cetd/include/aes.h	/^    uint32_t buf[68];           \/*!<  unaligned data    *\/$/;"	m	struct:__anon1
+buf	cetd/include/aes.h	/^    uint32_t buf[68];           \/*!<  unaligned data    *\/$/;"	m	struct:__anon2
+byteReverse	nist/src/genutils.c	/^void byteReverse(ULONG *buffer, int byteCount)$/;"	f
+byte_split	cetd/src/run.c	/^int byte_split(int bit_len)$/;"	f
+byte_split	run.c	/^int byte_split(int bit_len)$/;"	f
+cephes_erf	nist/src/cephes.c	/^cephes_erf(double x)$/;"	f
+cephes_erfc	nist/src/cephes.c	/^cephes_erfc(double x)$/;"	f
+cephes_igam	nist/src/cephes.c	/^cephes_igam(double a, double x)$/;"	f
+cephes_igamc	nist/src/cephes.c	/^cephes_igamc(double a, double x)$/;"	f
+cephes_lgam	nist/src/cephes.c	/^cephes_lgam(double x)$/;"	f
+cephes_normal	nist/src/cephes.c	/^cephes_normal(double x)$/;"	f
+cephes_p1evl	nist/src/cephes.c	/^cephes_p1evl(double x, double *coef, int N)$/;"	f
+cephes_polevl	nist/src/cephes.c	/^cephes_polevl(double x, double *coef, int N)$/;"	f
+chooseTests	nist/src/utilities.c	/^chooseTests()$/;"	f
+cipher	cetd/src/cipher.c	/^void cipher(aes_context ctx,uchar **dst, uchar ** src, FILE *cipher_o, bool file_type)$/;"	f
+cipher_short	cetd/src/cipher.c	/^void cipher_short(aes_context ctx,uchar **dst, uchar ** src, FILE *cipher_o,bool file_type)$/;"	f
+ciphertext_dir_csv	cetd/src/run.c	36;"	d	file:
+ciphertext_dir_csv	run.c	31;"	d	file:
+ciphertext_dir_txt	cetd/src/run.c	33;"	d	file:
+ciphertext_dir_txt	run.c	28;"	d	file:
+cmp	nist/src/assess.c	/^cmp(const double *a, const double *b)$/;"	f
+combination	cetd/src/LL_arr_gen.c	/^int combination(int n, int k)$/;"	f
+combinations_bin	cetd/src/combination.c	/^void combinations_bin (int v[], $/;"	f
+complex_count	cetd/src/input.c	/^void complex_count(uchar **input, int test_n, FILE *data_i,bool file_type,uint *random)$/;"	f
+computeMetrics	nist/src/assess.c	/^computeMetrics(char *s, int test)$/;"	f
+computeRank	nist/src/matrix.c	/^computeRank(int M, int Q, BitSequence **matrix)$/;"	f
+convertToBits	nist/src/utilities.c	/^convertToBits(BYTE *x, int xBitLength, int bitsNeeded, int *num_0s, int *num_1s, int *bitsRead)$/;"	f
+count	cetd/src/input.c	/^void count(uchar **input, int test_n, FILE *data_i, bool file_type)$/;"	f
+counter_normal	cetd/src/input.c	/^void counter_normal(uchar **input,uint counter, FILE *data_i, bool file_type, int number, int arr_length)$/;"	f
+create_matrix	nist/src/matrix.c	/^create_matrix(int M, int Q)$/;"	f
+crt_arr_generation	cetd/src/CETD.c	/^void crt_arr_generation(int crt, $/;"	f
+csvFile	cetd/others/dir_operation.py	/^			csvFile = open(csvname,'wb')$/;"	v
+csvFile	cetd/others/dir_operation.py	/^	csvFile = open(csvname,'wb')$/;"	v
+csvname	cetd/others/dir_operation.py	/^			csvname = result_dir+"\/"+test_type+"\/"+result_filename % (nonce_id)+".csv" $/;"	v
+csvname	cetd/others/dir_operation.py	/^	csvname = result_dir+"\/"+result_filename $/;"	v
+csvname	cetd/others/dir_operation.py	/^	csvname = result_dir+"\/"+test_type+"\/"+result_filename $/;"	v
+csvname	cetd/others/dir_operation.py	/^	csvname = result_dir+"\/"+test_type+"\/"+result_filename % (nonce_id)+".csv" $/;"	v
+cubicRes	nist/src/generators.c	/^cubicRes()$/;"	f
+data	cetd/include/LL_arr_gen.h	/^	ELEM_TYPE data;$/;"	m	struct:node
+data_dir_csv	cetd/src/run.c	35;"	d	file:
+data_dir_csv	run.c	30;"	d	file:
+data_dir_txt	cetd/src/run.c	32;"	d	file:
+data_dir_txt	run.c	27;"	d	file:
+data_list	cetd/others/dir_operation.py	/^		data_list = []$/;"	v
+data_list	cetd/others/dir_operation.py	/^		data_list = f.readlines()$/;"	v
+dcsqb1	nist/src/dfft.c	/^STIN void dcsqb1(int n, double *x, double *w, double *xh, int *ifac)$/;"	f
+dcsqf1	nist/src/dfft.c	/^STIN void dcsqf1(int n, double *x, double *w, double *xh, int *ifac)$/;"	f
+debug	cetd/src/shuffle.c	/^void debug(unsigned int x)$/;"	f
+def_matrix	nist/src/matrix.c	/^def_matrix(int M, int Q, BitSequence **m,int k)$/;"	f
+delete_matrix	nist/src/matrix.c	/^delete_matrix(int M, BitSequence **matrix)$/;"	f
+determine_rank	nist/src/matrix.c	/^determine_rank(int m, int M, int Q, BitSequence **A)$/;"	f
+displayFileFormat	cetd/src/run.c	/^bool displayFileFormat()$/;"	f
+displayFileFormat	run.c	/^bool displayFileFormat()$/;"	f
+displayGeneratorOptions	nist/src/utilities.c	/^displayGeneratorOptions()$/;"	f
+displayInputOption	cetd/src/run.c	/^int displayInputOption()$/;"	f
+displayInputOption	run.c	/^int displayInputOption()$/;"	f
+distinct_value	cetd/others/pyResAna/repeat_count.py	/^def distinct_value(srcDirName, srcFileName, dstWriter):$/;"	f
+distinct_vn	cetd/others/dir_operation.py	/^		distinct_vn = len(my_set)$/;"	v
+dradb2	nist/src/dfft.c	/^STIN void dradb2(int ido, int l1, double *cc, double *ch, double *wa1)$/;"	f
+dradb3	nist/src/dfft.c	/^STIN void dradb3(int ido, int l1, double *cc, double *ch, double *wa1, double *wa2)$/;"	f
+dradb4	nist/src/dfft.c	/^STIN void dradb4(int ido, int l1, double *cc, double *ch, double *wa1,$/;"	f
+dradbg	nist/src/dfft.c	/^STIN void dradbg(int ido, int ip, int l1, int idl1, double *cc, double *c1,$/;"	f
+dradf2	nist/src/dfft.c	/^STIN void dradf2(int ido, int l1, double *cc, double *ch, double *wa1)$/;"	f
+dradf4	nist/src/dfft.c	/^STIN void dradf4(int ido, int l1, double *cc, double *ch, double *wa1,$/;"	f
+dradfg	nist/src/dfft.c	/^STIN void dradfg(int ido, int ip, int l1, int idl1, double *cc, double *c1,$/;"	f
+drftb1	nist/src/dfft.c	/^STIN void drftb1(int n, double *c, double *ch, double *wa, int *ifac)$/;"	f
+drftf1	nist/src/dfft.c	/^STIN void drftf1(int n, double *c, double *ch, double *wa, int *ifac)$/;"	f
+drfti1	nist/src/dfft.c	/^static void drfti1(int n, double *wa, int *ifac)$/;"	f	file:
+epsilon	nist/include/decls.h	/^BitSequence	*epsilon;				\/\/ BIT STREAM$/;"	v
+equal_input	cetd/src/input.c	/^void equal_input(uchar **input, FILE *data_i, bool file_type)$/;"	f
+exclusiveOR	nist/src/generators.c	/^exclusiveOR()$/;"	f
+expand	nist/include/generators.h	35;"	d
+extract_nonce_seg	cetd/src/gf_mult.c	/^int extract_nonce_seg(int start_bit, int end_bit, uchar *nonce, int log_blkn)$/;"	f
+f	cetd/others/dir_operation.py	/^		f = file(src_dir+"\/"+name_list[i],"r")$/;"	v
+f	cetd/others/dir_operation.py	/^	  	f = file(result_dir+"\/"+test_type+"\/"+name_list[i])#read the result file of nonce_i$/;"	v
+f	cetd/others/dir_operation.py	/^	f = file(result_dir+"\/"+test_type+"\/"+name_list[0])#read the result file of nonce_i$/;"	v
+f1	nist/include/generators.h	29;"	d
+f2	nist/include/generators.h	33;"	d
+f3	nist/include/generators.h	31;"	d
+factorial	cetd/src/LL_arr_gen.c	/^int factorial(int n)$/;"	f
+fileBasedBitStreams	nist/src/utilities.c	/^fileBasedBitStreams(char *streamFile)$/;"	f
+find_unit_element_and_swap	nist/src/matrix.c	/^find_unit_element_and_swap(int flag, int i, int M, int Q, BitSequence **A)$/;"	f
+fixParameters	nist/src/utilities.c	/^fixParameters()$/;"	f
+freq_list	cetd/others/dir_operation.py	/^	freq_list = {}$/;"	v
+freqfp	nist/include/decls.h	/^FILE		*freqfp;				\/\/ FILE OUTPUT STREAM$/;"	v
+generatorDir	nist/include/decls.h	/^char	generatorDir[NUMOFGENERATORS][20] = { "AlgorithmTesting", "LCG", "QCG1", "QCG2","CCG", "XOR",$/;"	v
+generatorOptions	nist/src/utilities.c	/^generatorOptions(char** streamFile)$/;"	f
+gf_mult	cetd/src/gf_mult.c	/^void gf_mult(uchar *input, $/;"	f
+gf_mult_nonce_seg	cetd/src/gf_mult.c	/^int gf_mult_nonce_seg(uchar *nonce, $/;"	f
+gf_mult_stage	cetd/src/gf_mult.c	/^int gf_mult_stage(uchar *nonce, $/;"	f
+greater	nist/src/genutils.c	/^int greater(BYTE *x, BYTE *y, int l)$/;"	f
+index	cetd/others/dir_operation.py	/^		  	index = line.find(',')$/;"	v
+index	cetd/others/dir_operation.py	/^		index=name_list[i].find('_')$/;"	v
+index1	cetd/src/shuffle.c	/^	uint index1:2;\/\/block number 1$/;"	m	struct:split	file:
+index2	cetd/src/shuffle.c	/^	uint index2:2;\/\/block number 2$/;"	m	struct:split	file:
+init_LL	cetd/src/LL_arr_gen.c	/^void init_LL(Node *L)$/;"	f
+insert_node	cetd/src/LL_arr_gen.c	/^Node *insert_node(Node *H, ELEM_TYPE D)$/;"	f
+int32_t	cetd/include/padlock.h	/^typedef INT32 int32_t;$/;"	t
+invokeTestSuite	nist/src/utilities.c	/^invokeTestSuite(int option, char *streamFile)$/;"	f
+isGreaterThanOne	nist/include/defs.h	16;"	d
+isNegative	nist/include/defs.h	15;"	d
+isNonPositive	nist/include/defs.h	13;"	d
+isOne	nist/include/defs.h	18;"	d
+isPositive	nist/include/defs.h	14;"	d
+isZero	nist/include/defs.h	17;"	d
+key	cetd/others/dir_operation.py	/^		  	key = line[0:index-4]$/;"	v
+lcg	nist/src/generators.c	/^lcg()$/;"	f
+lcg_rand	nist/src/generators.c	/^lcg_rand(int N, double SEED, double* DUNIF, int NDIM)$/;"	f
+length	cetd/src/shuffle.c	/^	uint length:5;\/\/segsize$/;"	m	struct:split	file:
+less	nist/src/genutils.c	/^int less(BYTE *x, BYTE *y, int l)$/;"	f
+linearComplexitySequenceLength	nist/include/defs.h	/^	int		linearComplexitySequenceLength;$/;"	m	struct:_testParameters
+linear_counter	cetd/src/input.c	/^void linear_counter(uchar **input, int test_n, bool file_type, FILE *data_i, int number, int arr_length)$/;"	f
+log2_int	cetd/src/math_func.c	/^int log2_int(int n)$/;"	f
+main	cetd/src/gf_mult.c	/^int main()$/;"	f
+main	cetd/src/run.c	/^int main(int argc, char *argv[])$/;"	f
+main	cetd/src/test.c	/^void main()$/;"	f
+main	nist/src/assess.c	/^main(int argc, char *argv[])$/;"	f
+main	run.c	/^int main(int argc, char *argv[])$/;"	f
+micali_schnorr	nist/src/generators.c	/^micali_schnorr()$/;"	f
+mod	cetd/src/permutation.c	/^int mod(int a, int b)$/;"	f
+mod1	cetd/src/math_func.c	/^int mod1(int a, int b)$/;"	f
+modExp	nist/src/generators.c	/^modExp()$/;"	f
+my_set	cetd/others/dir_operation.py	/^		my_set = set(data_list)$/;"	v
+n	nist/include/defs.h	/^	int		n;$/;"	m	struct:_testParameters
+name_list	cetd/others/dir_operation.py	/^	name_list = os.listdir(result_dir+"\/"+test_type)$/;"	v
+name_list	cetd/others/dir_operation.py	/^name_list = os.listdir(src_dir)$/;"	v
+negate	nist/src/genutils.c	/^int negate(BYTE *A, int L)$/;"	f
+next	cetd/include/LL_arr_gen.h	/^	struct node *next;$/;"	m	struct:node	typeref:struct:node::node
+nist_test_suite	nist/src/utilities.c	/^nist_test_suite()$/;"	f
+node	cetd/include/LL_arr_gen.h	/^typedef struct node{$/;"	s
+nonOverlappingTemplateBlockLength	nist/include/defs.h	/^	int		nonOverlappingTemplateBlockLength;$/;"	m	struct:_testParameters
+nonceCollide_tag_dir_csv	cetd/src/run.c	39;"	d	file:
+nonceCollide_tag_dir_csv	run.c	34;"	d	file:
+nonce_collide_test	cetd/others/dir_operation.py	/^nonce_collide_test = True$/;"	v
+nonce_dir_csv	cetd/include/CETD.h	54;"	d
+nonce_dir_txt	cetd/include/CETD.h	48;"	d
+nonce_id	cetd/others/dir_operation.py	/^			nonce_id = int(nonce_id_tmp) $/;"	v
+nonce_id	cetd/others/dir_operation.py	/^	nonce_id = 0$/;"	v
+nonce_id_tmp	cetd/others/dir_operation.py	/^		nonce_id_tmp = name_list[i][0:nonce_index]$/;"	v
+nonce_index	cetd/others/dir_operation.py	/^		nonce_index = name_list[i].find('_')		$/;"	v
+nonce_input_generation	cetd/src/CETD.c	/^void nonce_input_generation(uchar *nonce_input, $/;"	f
+nonce_len	cetd/src/run.c	/^int nonce_len(int shuffle_r, int y_num, int tag_len)$/;"	f
+nonce_len	run.c	/^int nonce_len(int shuffle_r, int y_num, int tag_len)$/;"	f
+nonce_num	cetd/others/dir_operation.py	/^nonce_num = len(name_list)\/34$/;"	v
+nr	cetd/include/aes.h	/^    int nr;                     \/*!<  number of rounds  *\/$/;"	m	struct:__anon1
+nr	cetd/include/aes.h	/^    int nr;                     \/*!<  number of rounds  *\/$/;"	m	struct:__anon2
+numOfBitStreams	nist/include/defs.h	/^	int		numOfBitStreams;$/;"	m	struct:_testParameters
+offset1	cetd/src/shuffle.c	/^    uint offset1:5;\/\/start position for block1$/;"	m	struct:split	file:
+offset2	cetd/src/shuffle.c	/^	uint offset2:5;\/\/start position for block2$/;"	m	struct:split	file:
+only_plaintext	cetd/src/cipher.c	/^void only_plaintext(uchar **dst, const uchar **src, int number, int arr_length, FILE *cipher_o,bool file_type)$/;"	f
+openOutputStreams	nist/src/utilities.c	/^openOutputStreams(int option)$/;"	f
+overlappingTemplateBlockLength	nist/include/defs.h	/^	int		overlappingTemplateBlockLength;$/;"	m	struct:_testParameters
+padlock_supports	cetd/src/padlock.c	/^int padlock_supports( int feature )$/;"	f
+padlock_xcryptcbc	cetd/src/padlock.c	/^int padlock_xcryptcbc( aes_context *ctx,$/;"	f
+padlock_xcryptecb	cetd/src/padlock.c	/^int padlock_xcryptecb( aes_context *ctx,$/;"	f
+partitionResultFile	nist/src/assess.c	/^partitionResultFile(int numOfFiles, int numOfSequences, int option, int testNameID)$/;"	f
+perform_elementary_row_operations	nist/src/matrix.c	/^perform_elementary_row_operations(int flag, int i, int M, int Q, BitSequence **A)$/;"	f
+permutation	cetd/src/permutation.c	/^void permutation(uchar **data,$/;"	f
+perodic_cipher	cetd/src/cipher.c	/^void perodic_cipher(aes_context ctx,uchar **dst, uchar ** src, FILE *cipher_o,int index,bool file_type)$/;"	f
+perodic_input	cetd/src/input.c	/^void perodic_input(uchar **input, FILE *data_i,int index,bool file_type)$/;"	f
+poly_128	cetd/src/gf_mult.c	/^uchar poly_128[] = {0xE1, 0x00,0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00};$/;"	v
+poly_16	cetd/src/gf_mult.c	/^uchar poly_16[] = {0xD4, 0x00};$/;"	v
+poly_32	cetd/src/gf_mult.c	/^uchar poly_32[] = {0xB1, 0x00, 0x00, 0x00};$/;"	v
+poly_64	cetd/src/gf_mult.c	/^uchar poly_64[] = {0xD8, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00};$/;"	v
+poly_8	cetd/src/gf_mult.c	/^uchar poly_8[] = {0xD8};$/;"	v
+postProcessResults	nist/src/assess.c	/^postProcessResults(int option)$/;"	f
+prettyprintBstr	nist/src/genutils.c	/^void prettyprintBstr(char *S, BYTE *A, int L)$/;"	f
+print_arr	cetd/src/test.c	/^void print_arr(ELEM_TYPE *arr, int len)$/;"	f
+print_binary	cetd/src/shuffle.c	/^static void print_binary(unsigned int x)$/;"	f	file:
+psi2	nist/src/serial.c	/^psi2(int m, int n)$/;"	f
+quadRes1	nist/src/generators.c	/^quadRes1()$/;"	f
+quadRes2	nist/src/generators.c	/^quadRes2()$/;"	f
+randomNumFile	cetd/others/pyResAna/random_file.py	/^def randomNumFile(dirName, fileNum, lineNum, startN, endN):$/;"	f
+randomNumFile	cetd/others/python_src/random_file.py	/^def randomNumFile(dirName, fileNum, lineNum, startN, endN):$/;"	f
+random_input	cetd/src/input.c	/^void random_input(uchar **input, const uchar **rnd,FILE *data_i, bool file_type, int number, int arr_length)$/;"	f
+random_repeat_long	cetd/src/input.c	/^void random_repeat_long(uchar **input, const uchar *rnd,FILE *data_i,  bool file_type, int number, int arr_length)$/;"	f
+random_repeat_short	cetd/src/input.c	/^void random_repeat_short(uchar **input, FILE *data_i, int rand_num, bool file_type)$/;"	f
+readBinaryDigitsInASCIIFormat	nist/src/utilities.c	/^readBinaryDigitsInASCIIFormat(FILE *fp, char *streamFile)$/;"	f
+readHexDigitsInBinaryFormat	nist/src/utilities.c	/^readHexDigitsInBinaryFormat(FILE *fp)$/;"	f
+rel_error	nist/src/cephes.c	/^static const double	rel_error = 1E-12;$/;"	v	file:
+repeat_count	cetd/others/pyResAna/repeat_count.py	/^def repeat_count(srcDirName,srcFileName, dstDirName, dstFileName):$/;"	f
+repeat_count	cetd/others/python_src/repeat_count.py	/^def repeat_count(srcDirName,srcFileName, dstDirName, dstFileName):$/;"	f
+reserved	cetd/src/shuffle.c	/^	uint reserved:13;$/;"	m	struct:split	file:
+result_dir	cetd/others/dir_operation.py	/^result_dir = ".\/tmp\/"$/;"	v
+result_filename	cetd/others/dir_operation.py	/^	result_filename = "frequency_new.csv"$/;"	v
+result_filename	cetd/others/dir_operation.py	/^	result_filename = "nonce_collide_aver.csv"$/;"	v
+result_filename	cetd/others/dir_operation.py	/^	result_filename = "nonce_collide_n%d"$/;"	v
+results	nist/include/decls.h	/^FILE		*results[NUMOFTESTS+1];	\/\/ FILE OUTPUT STREAM$/;"	v
+rk	cetd/include/aes.h	/^    uint32_t *rk;               \/*!<  AES round keys    *\/$/;"	m	struct:__anon1
+rk	cetd/include/aes.h	/^    uint32_t *rk;               \/*!<  AES round keys    *\/$/;"	m	struct:__anon2
+rndInput_dir_csv	cetd/src/run.c	38;"	d	file:
+rndInput_dir_csv	run.c	33;"	d	file:
+rnd_arr_generation	cetd/src/CETD.c	/^void rnd_arr_generation(const uchar *rnd, $/;"	f
+rotate_p	cetd/src/permutation.c	/^void rotate_p(const uchar *nonce,$/;"	f
+rotateticklabel	cetd/others/frequency/rotateticklabel.m	/^function TextHandle = rotateticklabel(ha,tag,rot)$/;"	f
+serialBlockLength	nist/include/defs.h	/^	int		serialBlockLength;$/;"	m	struct:_testParameters
+serial_permutation	cetd/src/permutation.c	/^void serial_permutation(uchar **data,$/;"	f
+sgngam	nist/src/cephes.c	/^int sgngam = 0;$/;"	v
+shiftl	cetd/src/array_shift.c	/^void shiftl(void *object, size_t size)$/;"	f
+shiftr	cetd/src/array_shift.c	/^void shiftr(void *object, size_t size, int n)$/;"	f
+shiftrr	cetd/src/array_shift.c	/^void shiftrr(void *object, size_t size, int n)$/;"	f
+shiftrrn	cetd/src/array_shift.c	/^void shiftrrn(void *object, size_t size, int n)$/;"	f
+show	cetd/src/show.c	/^void show(const void *object, size_t size)$/;"	f
+shuffle_p	cetd/src/CETD.c	/^int shuffle_p(int y_num,int tag_length)$/;"	f
+size	nist/include/genutils.h	/^	int		size;	\/*  in bytes  *\/$/;"	m	struct:_MP_struct
+smult	nist/src/genutils.c	/^void smult(BYTE *A, BYTE b, BYTE *C, int L)$/;"	f
+sniff_bit	nist/include/genutils.h	23;"	d
+sort_nat	cetd/others/sort_nat.m	/^function [cs,index] = sort_nat(c,mode)$/;"	f
+split	cetd/src/shuffle.c	/^struct split {$/;"	s	file:
+split_test	cetd/src/shuffle.c	/^void split_test(uint x)$/;"	f
+src_dir	cetd/others/dir_operation.py	/^src_dir = ".\/short" $/;"	v
+stats	nist/include/decls.h	/^FILE		*stats[NUMOFTESTS+1];	\/\/ FILE OUTPUT STREAM$/;"	v
+sub	nist/src/genutils.c	/^void sub(BYTE *A, int LA, BYTE *B, int LB)$/;"	f
+sub1Round1	nist/include/generators.h	37;"	d
+sub2Round1	nist/include/generators.h	46;"	d
+summary	nist/include/decls.h	/^FILE		*summary;				\/\/ FILE OUTPUT STREAM$/;"	v
+swap	cetd/src/shuffle.c	/^void swap(const uchar *nonce,  \/\/nonce $/;"	f
+swap_p	cetd/src/shuffle.c	/^void swap_p(const uchar *nonce, $/;"	f
+swap_p_with_start	cetd/src/shuffle.c	/^void swap_p_with_start(const uchar *nonce, \/\/$/;"	f
+swap_rows	nist/src/matrix.c	/^swap_rows(int i, int index, int Q, BitSequence **A)$/;"	f
+swap_with_nonce	cetd/src/shuffle.c	/^void swap_with_nonce(const uchar *nonce, $/;"	f
+tag_dir_csv	cetd/include/CETD.h	53;"	d
+tag_dir_txt	cetd/include/CETD.h	47;"	d
+tag_gene	cetd/src/tag.c	/^void tag_gene(const uchar **data, uchar *tag, int number, int arr_length)$/;"	f
+tag_gene_nonce	cetd/src/tag.c	/^void tag_gene_nonce(const uchar **data, uchar *tag, int number, int arr_length, const uchar *nonce)$/;"	f
+testNames	nist/include/decls.h	/^char	testNames[NUMOFTESTS+1][32] = { " ", "Frequency", "BlockFrequency", "CumulativeSums", "Runs", "LongestRun", "Rank",$/;"	v
+testVector	nist/include/decls.h	/^int			testVector[NUMOFTESTS+1];$/;"	v
+test_array	cetd/src/run.c	/^uchar test_array[5][2] = {{0x44, 0x77},{0x66,0x71},{0x34, 0x27},{0x33,0x99},{0x63,0xD8}};$/;"	v
+test_array	run.c	/^uchar test_array[5][2] = {{0x44, 0x77},{0x66,0x71},{0x34, 0x27},{0x33,0x99},{0x63,0xD8}};$/;"	v
+test_type	cetd/others/dir_operation.py	/^	test_type = "nonceCollide"$/;"	v
+test_type	cetd/others/dir_operation.py	/^	test_type = "replay"$/;"	v
+tp	nist/include/decls.h	/^TP			tp;						\/\/ TEST PARAMETER STRUCTURE$/;"	v
+traversal_list	cetd/src/LL_arr_gen.c	/^void traversal_list(Node *H)$/;"	f
+traverse_ll	cetd/src/run.c	/^void traverse_ll(Node **node_arr, int blk_num)$/;"	f
+traverse_ll	cetd/src/test.c	/^void traverse_ll(Node **node_arr, int blk_num)$/;"	f
+traverse_ll	run.c	/^void traverse_ll(Node **node_arr, int blk_num)$/;"	f
+uchar	cetd/include/config.h	14;"	d
+uint	cetd/include/config.h	16;"	d
+uint32_t	cetd/include/aes.h	/^typedef UINT32 uint32_t;$/;"	t
+ushort	cetd/include/config.h	15;"	d
+v_split	cetd/src/shuffle.c	/^void v_split(int shuffle_p, int y_num, int tag_length, uchar *v)$/;"	f
+val	nist/include/genutils.h	/^	BYTE	*val;$/;"	m	struct:_MP_struct
+write_csv_1array	cetd/src/write_csv.c	/^ void write_csv_1array(FILE *dst, int length, const uchar *array)$/;"	f
+write_csv_2array	cetd/src/write_csv.c	/^void write_csv_2array(FILE *dst, int number, int length, const uchar **array)$/;"	f
+write_csv_2array2	cetd/src/write_csv.c	/^void write_csv_2array2(FILE *dst, int num, int len, const uchar *array)$/;"	f
+write_csv_decimal_1array	cetd/src/write_csv.c	/^void write_csv_decimal_1array(FILE *dst, int len, const uchar *array)$/;"	f
+write_csv_decimal_2array	cetd/src/write_csv.c	/^void write_csv_decimal_2array(FILE *dst, int num, int len, const uchar **array)$/;"	f
+write_txt_1array	cetd/src/write_txt.c	/^void write_txt_1array(FILE *dst,  int length, const uchar *array)$/;"	f
+write_txt_2array	cetd/src/write_txt.c	/^void write_txt_2array(FILE *dst, int number, int length, const uchar **array)$/;"	f
+write_txt_2array2	cetd/src/write_txt.c	/^void write_txt_2array2(FILE *dst, int num, int len, const uchar *array)$/;"	f
+writer	cetd/others/dir_operation.py	/^			writer = csv.writer(csvFile, dialect='excel')$/;"	v
+writer	cetd/others/dir_operation.py	/^	writer = csv.writer(csvFile, dialect='excel')$/;"	v
+x_dir_csv	cetd/include/CETD.h	50;"	d
+x_dir_txt	cetd/include/CETD.h	44;"	d
+y1_dir_split_csv	cetd/include/CETD.h	51;"	d
+y1_dir_split_txt	cetd/include/CETD.h	45;"	d
+y2_dir_split_csv	cetd/include/CETD.h	52;"	d
+y2_dir_split_txt	cetd/include/CETD.h	46;"	d

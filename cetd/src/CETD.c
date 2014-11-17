@@ -469,7 +469,7 @@ void CETD_tag_generation(const uchar **data,
 	   tag_length, 
 	   tag);
 	 */
-    tag_gene(swap_data, tag, y_num, tag_length);
+    tag_gene(swap_data, tag, y_num, tag_length);//tag data is stored in array tag
 //	tag_gene_nonce(swap_data, tag, y_num,tag_length,nonce);
     
 	

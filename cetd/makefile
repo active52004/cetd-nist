@@ -1,35 +1,30 @@
 CC = /usr/bin/gcc
 GCCFLAGS = -c -Wall -g --std=c99
+
 ROOTDIR = .
 SRCDIR = $(ROOTDIR)/src
 OBJDIR = $(ROOTDIR)/obj
-
-
-#if using this method to find header files, the header file in c file should be included in the following way: #include "../include/header.h"
 VPATH = src:obj:include 
 
+#if using this method to find header files, the header file in c file should be included in the following way: #include "../include/header.h"
 
-OBJ = $(OBJDIR)/run.o \
-	  $(OBJDIR)/CETD.o $(OBJDIR)/tag.o $(OBJDIR)/shuffle.o $(OBJDIR)/permutation.o  \
-	  $(OBJDIR)/cipher.o  $(OBJDIR)/input.o  \
-      $(OBJDIR)/aes.o  \
-      $(OBJDIR)/padlock.o  \
-      $(OBJDIR)/array_shift.o  \
-	  $(OBJDIR)/write_txt.o \
-	  $(OBJDIR)/write_csv.o \
-	  $(OBJDIR)/show.o \
-	  $(OBJDIR)/LL_arr_gen.o \
-	  $(OBJDIR)/combination.o \
-	  $(OBJDIR)/math_func.o \
-	  $(OBJDIR)/gf_mult.o \
 
-run: $(OBJ)
-	$(CC) -o $@ $(OBJ) -lm
-#target:prerequest
-#	commend
-$(OBJDIR)/run.o: $(SRCDIR)/run.c config.h show.h input.h CETD.h \
- aes.h cipher.h LL_arr_gen.h math_func.h
-	$(CC) -o $@ $(GCCFLAGS) $(SRCDIR)/run.c 
+#OBJ = $(OBJDIR)/run.o \
+
+#OBJ = $(OBJDIR)/CETD.o $(OBJDIR)/tag.o $(OBJDIR)/shuffle.o $(OBJDIR)/permutation.o  \
+#	  $(OBJDIR)/cipher.o  $(OBJDIR)/input.o  \
+#      $(OBJDIR)/aes.o  \
+#      $(OBJDIR)/padlock.o  \
+#      $(OBJDIR)/array_shift.o  \
+#	  $(OBJDIR)/write_txt.o \
+#	  $(OBJDIR)/write_csv.o \
+#	  $(OBJDIR)/show.o \
+#	  $(OBJDIR)/LL_arr_gen.o \
+#	  $(OBJDIR)/combination.o \
+#	  $(OBJDIR)/math_func.o \
+#	  $(OBJDIR)/gf_mult.o \
+
+#OBJ := $(wildcard $(OBJDIR)/*.o)
 
 $(OBJDIR)/CETD.o: $(SRCDIR)/CETD.c CETD.h show.h write_txt.h write_csv.h math_func.h gf_mult.h
 	$(CC) -o $@ $(GCCFLAGS) $(SRCDIR)/CETD.c	
@@ -71,8 +66,10 @@ $(OBJDIR)/gf_mult.o: $(SRCDIR)/gf_mult.c gf_mult.h math_func.h array_shift.h
 	$(CC) -o $@ $(GCCFLAGS) $(SRCDIR)/gf_mult.c	
 
 
-clean:
-	rm -f run $(OBJDIR)/*.o 
+#.PHONY: clean
+#
+#clean:
+#	rm -f $(OBJDIR)/*.o 
 
-rebuild: clean run
+#rebuild: clean run
 
